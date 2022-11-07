@@ -1,0 +1,761 @@
+@font-face {
+    font-family:'Molde Semibold';
+    src: url('Molde-Expanded-Semibold.ttf') format('truetype'),
+    url('Molde-Expanded-Semibold.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Molde Regular';
+    src: url('Molde-Expanded-Regular.ttf') format('truetype'),
+    url('Molde-Expanded-Regular.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Messina Light';
+    src: url('MessinaSansMono-Light.ttf') format('truetype'),
+    url('MessinaSansMono-Light.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**/
+/**/
+/*HOME PAGE*/
+
+/*title home*/
+body#index {
+    background-image: url('https://i.ibb.co/TBshb9v/gif.gif');
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.title {
+    width: 100%;
+    padding: 20% 0;
+}
+
+.title-index {
+    width: 53%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Molde Semibold';
+    font-size: 70px;
+    color: red;
+    line-height: 60px;
+    letter-spacing: -2px;
+}
+
+.title-tooltip-index {
+    visibility: hidden;
+    width: 722px;
+    background-color: black;
+    color: red;
+    text-align: left;
+    border-radius: 0px;
+    padding: 4px 6px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  
+    left: 50%;
+    margin-left: -361px;
+  
+    font-family: 'Messina Light';
+    letter-spacing: -1px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.title-index:hover .title-tooltip-index {
+    visibility: visible;
+  }
+
+
+/*buttons index*/
+#button1 {
+    margin-top: -75px;
+    transform: rotate(-90deg);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Molde Semibold';
+    font-size: 13px;
+    color: red;
+    float: left;
+    text-decoration: none;
+}
+
+#button1:hover {
+    color: white;
+}
+
+#button2 {
+    margin-top: -75px;
+    transform: rotate(-90deg);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Molde Semibold';
+    font-size: 13px;
+    color: red;
+    float: right;
+    text-decoration: none;
+}
+
+#button2:hover {
+    color: white;
+}
+
+
+
+/**/
+/**/
+/*ANTI-UTOPIA 1*/
+body#anti-utopia-1 {
+    background-color: black;
+    overflow: hidden;
+}
+
+/*column 1*/
+.title-anti-utopia {
+    width: 8%;
+    float: left;
+    padding-bottom: 1.2%;
+    padding-right: 1%;
+    font-family: 'Molde Semibold';
+    font-size: 54px;
+    text-align: right;
+    color: white;
+    line-height: 52px;
+    letter-spacing: -2px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.title-tooltip-anti-utopia {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    padding: 4px 6px;
+    text-align: left;
+    width: 700px;
+    writing-mode: horizontal-tb;
+    transform: rotate(180deg);
+
+    font-family: 'Messina Light';
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: -1px;
+}
+
+.title-anti-utopia:hover .title-tooltip-anti-utopia {
+    visibility: visible;
+}
+
+.title-anti-utopia:hover {
+    color: red;
+}
+
+/*column 2*/
+.center {
+    width: 42%;
+    float: left;
+    margin-left: 15%;
+    line-height: 12px;
+
+}
+
+.images-center {
+    width: 48%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.images-center-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.center-center:hover .images-center-tooltip {
+    visibility: visible;
+}
+
+.concept-title {
+    font-family: 'Molde Semibold';
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.concept-title:hover {
+    color: red;
+}
+
+.text1 {
+    width: 48%;
+    margin-top: 9%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+/*column 3*/
+.right {
+    width: 20.16%;
+    float: right;
+    line-height: 12px;
+}
+
+.images-right {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.images-right-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.right:hover .images-right-tooltip {
+    visibility: visible;
+}
+
+
+
+/**/
+/**/
+/*ANTI-UTOPIA 2*/
+body#anti-utopia-2 {
+    background-color: black;
+    overflow: hidden;
+}
+
+/*column 2*/
+.center2 {
+    width: 20.16%;
+    float: left;
+    margin-top: 17%;
+    margin-left: 28%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+/*column 3*/
+.right2 {
+    width: 20.16%;
+    float: right;
+    margin-top: 24%;
+    line-height: 12px;
+}
+
+.images-right-2 {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.images-right-2-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.right2:hover .images-right-2-tooltip {
+    visibility: visible;
+}
+
+
+
+/**/
+/**/
+/*ANTI-UTOPIA 3*/
+body#anti-utopia-3 {
+    background-color: black;
+    overflow: hidden;
+}
+
+/*column 2*/
+.center3 {
+    width: 20.16%;
+    float: left;
+    margin-left: 28%;
+    line-height: 12px;
+}
+
+.images-center-3 {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.images-center-3-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.center3:hover .images-center-3-tooltip {
+    visibility: visible;
+}
+
+/*column 3*/
+.center3emeio {
+    width: 20.16%;
+    float: left;
+    margin-top: 25%;
+    margin-left: 0.5%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+/*column 4*/
+.right3 {
+    width: 20.16%;
+    float: right;
+    margin-top: 25%;
+    margin-right: 1%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+
+
+/**/
+/**/
+/*ANTI-UTOPIA 4*/
+body#anti-utopia-4 {
+    background-color: black;
+    overflow: hidden;
+}
+
+/*column 2*/
+.center4 {
+    width: 20.16%;
+    float: left;
+    margin-top: 20%;
+    margin-left: 48.66%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+/*column 3*/
+.right4 {
+    width: 20.16%;
+    float: right;
+    margin-top: 20%;
+    line-height: 12px;
+}
+
+.images-right-4 {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.images-right-4-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.right4:hover .images-right-4-tooltip {
+    visibility: visible;
+}
+
+
+
+/**/
+/**/
+/*DYSTOPIAS 1*/
+body#dystopias-1 {
+    background-color: black;
+    overflow: hidden;
+}
+
+/*column 2*/
+.center5 {
+    width: 20.16%;
+    margin-left: 15%;
+    float: left;
+    line-height: 12px;
+}
+
+.images-center-5 {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.images-center-5-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.center5:hover .images-center-5-tooltip {
+    visibility: visible;
+}
+
+/*column 3*/
+.center5emeio {
+    width: 20.16%;
+    float: left;
+    margin-top: 16.5%;
+    margin-left: 0.5%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+/*column 4*/
+.right5 {
+    width: 20.16%;
+    float: right;
+    line-height: 12px;
+}
+
+.images-right-5 {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.images-right-5-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.right5:hover .images-right-5-tooltip {
+    visibility: visible;
+}
+
+
+
+/**/
+/**/
+/*DYSTOPIAS 2*/
+body#dystopias-2 {
+    background-color: black;
+    overflow: hidden;
+}
+
+/*column 2*/
+.center6 {
+    width: 20.16%;
+    margin-top: 24%;
+    margin-left: 28%;
+    float: left;
+    line-height: 12px;
+}
+
+.images-center-6 {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.images-center-6-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.center6:hover .images-center-6-tooltip {
+    visibility: visible;
+}
+
+/*column 3*/
+.center6emeio {
+    width: 20.16%;
+    float: left;
+    margin-top: 24%;
+    margin-left: 0.5%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+/*column 4*/
+.right6 {
+    width: 20.16%;
+    float: right;
+    margin-top: 24%;
+    margin-right: 1%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+
+
+/**/
+/**/
+/*DYSTOPIAS 3*/
+body#dystopias-3 {
+    background-color: black;
+    overflow: hidden;
+}
+
+/*column 2*/
+.center7 {
+    width: 20.16%;
+    float: left;
+    margin-left: 28%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+/*column 3*/
+.center7emeio {
+    width: 20.16%;
+    float: left;
+    margin-top: 18%;
+    margin-left: 0.5%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+/*column 4*/
+.right7 {
+    width: 20.16%;
+    float: right;
+    line-height: 12px;
+    margin-top: 18.5%;
+}
+
+.images-right-7 {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.images-right-7-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.right7:hover .images-right-7-tooltip {
+    visibility: visible;
+}
+
+
+
+/**/
+/**/
+/*DYSTOPIAS 4*/
+body#dystopias-4 {
+    background-color: black;
+    overflow: hidden;
+}
+
+/*column 2*/
+.center8 {
+    width: 20.16%;
+    margin-left: 15%;
+    float: left;
+    line-height: 12px;
+}
+
+.images-center-8 {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.images-center-8-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.center8:hover .images-center-8-tooltip {
+    visibility: visible;
+}
+
+/*column 3*/
+.center8emeio {
+    width: 20.16%;
+    float: left;
+    margin-top: 29.5%;
+    margin-left: 14%;
+    color: white;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+/*column 4*/
+.right8 {
+    width: 20.16%;
+    float: right;
+    line-height: 12px;
+    margin-top: 18%;
+}
+
+.images-right-8 {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.images-right-8-tooltip {
+    visibility: hidden;
+    color: red;
+    background-color: black;
+    border-radius: 0px;
+    font-family: 'Messina Light';
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+
+.right8:hover .images-right-8-tooltip {
+    visibility: visible;
+}
+
+
+
+/**/
+/**/
+/*FOOTER*/
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 3%;
+    left: 1.5%;
+    font-family: 'Molde Regular';
+    font-size: 8px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#footer-button {
+    text-decoration: none;
+    color: white;
+    margin-left: 0.5%;
+}
+
+#footer-button:hover {
+    color: red;
+}
+
+#pdf {
+    float: right;
+    margin-right: 4%;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+}
+
+#pdf:hover {
+    color: red;
+}
+
+
+
+/**/
+/**/
+/*MEDIA QUERIES*/
+@media screen and (max-width: 750px) {
+    .title {
+        padding: 40% 0;
+    }
+
+    .title-index {
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    .title-tooltip-index {
+        width: 320px;
+        margin-left: -160px;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .title-tooltip-anti-utopia {
+        width: 300px;
+    }
+  }
