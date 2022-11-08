@@ -54,7 +54,7 @@ body#index {
 
 .title-tooltip-index {
     visibility: hidden;
-    width: 722px;
+    width: 675px;
     background-color: black;
     color: red;
     text-align: left;
@@ -66,7 +66,7 @@ body#index {
     z-index: 1;
   
     left: 50%;
-    margin-left: -361px;
+    margin-left: -338px;
   
     font-family: 'Messina Light';
     letter-spacing: -1px;
@@ -145,7 +145,7 @@ body#anti-utopia-1 {
     border-radius: 0px;
     padding: 4px 6px;
     text-align: left;
-    width: 700px;
+    width: 680px;
     writing-mode: horizontal-tb;
     transform: rotate(180deg);
 
