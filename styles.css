@@ -46,9 +46,9 @@ body#index {
     margin: auto;
     text-align: center;
     font-family: 'Molde Semibold';
-    font-size: 70px;
+    font-size: 65px;
     color: red;
-    line-height: 60px;
+    line-height: 55px;
     letter-spacing: -2px;
 }
 
@@ -258,7 +258,7 @@ body#anti-utopia-2 {
 .center2 {
     width: 20.16%;
     float: left;
-    margin-top: 17%;
+    margin-top: 1%;
     margin-left: 28%;
     color: white;
     font-family: 'Messina Light';
@@ -373,7 +373,7 @@ body#anti-utopia-4 {
 .center4 {
     width: 20.16%;
     float: left;
-    margin-top: 20%;
+    margin-top: 1%;
     margin-left: 48.66%;
     color: white;
     font-family: 'Messina Light';
@@ -757,5 +757,23 @@ footer {
   @media screen and (max-width: 850px) {
     .title-tooltip-anti-utopia {
         width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    body#dystopias-2 {
+        overflow: scroll;
+    }
+
+    body#dystopias-3 {
+        overflow: scroll;
+    }
+
+    body#anti-utopia-3 {
+        overflow: scroll;
+    }
+
+    body#anti-utopia-4 {
+        overflow: scroll;
     }
   }
