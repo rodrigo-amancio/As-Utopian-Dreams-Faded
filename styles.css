@@ -363,7 +363,6 @@ body#anti-utopia-3 {
 /*ANTI-UTOPIA 4*/
 body#anti-utopia-4 {
     background-color: black;
-    overflow: hidden;
 }
 
 /*column 2*/
@@ -762,23 +761,5 @@ footer {
   @media screen and (max-width: 850px) {
     .title-tooltip-anti-utopia {
         width: 300px;
-    }
-  }
-
-  @media screen and (max-width: 850px) {
-    body#dystopias-2 {
-        overflow: scroll;
-    }
-
-    body#dystopias-3 {
-        overflow: scroll;
-    }
-
-    body#anti-utopia-3 {
-        overflow: scroll;
-    }
-
-    body#anti-utopia-4 {
-        overflow: scroll;
     }
   }
