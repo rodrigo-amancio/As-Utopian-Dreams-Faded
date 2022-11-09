@@ -119,7 +119,6 @@ body#index {
 /*ANTI-UTOPIA 1*/
 body#anti-utopia-1 {
     background-color: black;
-    overflow: hidden;
 }
 
 /*column 1*/
@@ -251,7 +250,6 @@ body#anti-utopia-1 {
 /*ANTI-UTOPIA 2*/
 body#anti-utopia-2 {
     background-color: black;
-    overflow: hidden;
 }
 
 /*column 2*/
@@ -302,7 +300,6 @@ body#anti-utopia-2 {
 /*ANTI-UTOPIA 3*/
 body#anti-utopia-3 {
     background-color: black;
-    overflow: hidden;
 }
 
 /*column 2*/
@@ -417,7 +414,6 @@ body#anti-utopia-4 {
 /*DYSTOPIAS 1*/
 body#dystopias-1 {
     background-color: black;
-    overflow: hidden;
 }
 
 /*column 2*/
@@ -495,7 +491,6 @@ body#dystopias-1 {
 /*DYSTOPIAS 2*/
 body#dystopias-2 {
     background-color: black;
-    overflow: hidden;
 }
 
 /*column 2*/
@@ -560,7 +555,6 @@ body#dystopias-2 {
 /*DYSTOPIAS 3*/
 body#dystopias-3 {
     background-color: black;
-    overflow: hidden;
 }
 
 /*column 2*/
@@ -579,7 +573,7 @@ body#dystopias-3 {
 .center7emeio {
     width: 20.16%;
     float: left;
-    margin-top: 18%;
+    margin-top: 17.5%;
     margin-left: 0.5%;
     color: white;
     font-family: 'Messina Light';
@@ -658,7 +652,7 @@ body#dystopias-4 {
 .center8emeio {
     width: 20.16%;
     float: left;
-    margin-top: 29.5%;
+    margin-top: 17%;
     margin-left: 14%;
     color: white;
     font-family: 'Messina Light';
@@ -715,6 +709,17 @@ footer {
     text-decoration: none;
     color: white;
     margin-left: 0.5%;
+}
+
+#home {
+    text-decoration: none;
+    color: white;
+    margin-left: 0.5%;
+    font-family: 'Molde Semibold';
+}
+
+#home:hover {
+    color: red;
 }
 
 #footer-button:hover {
