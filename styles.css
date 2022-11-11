@@ -144,13 +144,13 @@ body#anti-utopia-1 {
     border-radius: 0px;
     padding: 4px 6px;
     text-align: left;
-    width: 680px;
+    width: 640px;
     writing-mode: horizontal-tb;
     transform: rotate(180deg);
 
     font-family: 'Messina Light';
-    font-size: 11px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 15px;
     letter-spacing: -1px;
 }
 
@@ -160,6 +160,10 @@ body#anti-utopia-1 {
 
 .title-anti-utopia:hover {
     color: red;
+}
+
+.reference {
+    font-size: 11px;
 }
 
 /*column 2*/
@@ -184,8 +188,8 @@ body#anti-utopia-1 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
@@ -211,7 +215,7 @@ body#anti-utopia-1 {
     margin-top: 9%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -234,8 +238,8 @@ body#anti-utopia-1 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
@@ -260,7 +264,7 @@ body#anti-utopia-2 {
     margin-left: 28%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -284,8 +288,8 @@ body#anti-utopia-2 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
@@ -321,8 +325,8 @@ body#anti-utopia-3 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
@@ -334,11 +338,11 @@ body#anti-utopia-3 {
 .center3emeio {
     width: 20.16%;
     float: left;
-    margin-top: 25%;
+    margin-top: 22.5%;
     margin-left: 0.5%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -347,11 +351,11 @@ body#anti-utopia-3 {
 .right3 {
     width: 20.16%;
     float: right;
-    margin-top: 25%;
+    margin-top: 22.5%;
     margin-right: 1%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -373,7 +377,7 @@ body#anti-utopia-4 {
     margin-left: 48.66%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -397,8 +401,8 @@ body#anti-utopia-4 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
@@ -434,8 +438,8 @@ body#dystopias-1 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
@@ -447,11 +451,11 @@ body#dystopias-1 {
 .center5emeio {
     width: 20.16%;
     float: left;
-    margin-top: 16.5%;
+    margin-top: 14.7%;
     margin-left: 0.5%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -474,8 +478,8 @@ body#dystopias-1 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
@@ -495,7 +499,7 @@ body#dystopias-2 {
 /*column 2*/
 .center6 {
     width: 20.16%;
-    margin-top: 24%;
+    margin-top: 21%;
     margin-left: 28%;
     float: left;
     line-height: 12px;
@@ -512,8 +516,8 @@ body#dystopias-2 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
@@ -525,11 +529,11 @@ body#dystopias-2 {
 .center6emeio {
     width: 20.16%;
     float: left;
-    margin-top: 24%;
+    margin-top: 21%;
     margin-left: 0.5%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -538,11 +542,11 @@ body#dystopias-2 {
 .right6 {
     width: 20.16%;
     float: right;
-    margin-top: 24%;
+    margin-top: 21%;
     margin-right: 1%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -563,7 +567,7 @@ body#dystopias-3 {
     margin-left: 28%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -572,11 +576,11 @@ body#dystopias-3 {
 .center7emeio {
     width: 20.16%;
     float: left;
-    margin-top: 17.5%;
+    margin-top: 14%;
     margin-left: 0.5%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -586,7 +590,7 @@ body#dystopias-3 {
     width: 20.16%;
     float: right;
     line-height: 12px;
-    margin-top: 18.5%;
+    margin-top: 15%;
 }
 
 .images-right-7 {
@@ -600,8 +604,8 @@ body#dystopias-3 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
@@ -638,8 +642,8 @@ body#dystopias-4 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
@@ -655,7 +659,7 @@ body#dystopias-4 {
     margin-left: 14%;
     color: white;
     font-family: 'Messina Light';
-    font-size: 9px;
+    font-size: 10px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -679,8 +683,8 @@ body#dystopias-4 {
     background-color: black;
     border-radius: 0px;
     font-family: 'Messina Light';
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 13px;
     letter-spacing: -1px;
 }
 
